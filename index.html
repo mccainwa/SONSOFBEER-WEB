@@ -1,0 +1,100 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sons of Beer Brewing Company — Colorado Craft Beer</title>
+  <meta name="description" content="Sons of Beer Brewing Company crafts specialty Colorado-born beers for every enthusiast.">
+  <link rel="preload" as="image" href="assets/sons-of-beer-logo.svg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="canonical" href="https://sonsofbeer.com/">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Brewery",
+    "name":"Sons of Beer Brewing Company",
+    "url":"https://sonsofbeer.com",
+    "address":{"@type":"PostalAddress","addressRegion":"CO","addressCountry":"US"},
+    "servesCuisine":"Brewery",
+    "sameAs":[]
+  }
+  </script>
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/sons-of-beer-logo.svg" alt="Sons of Beer logo">
+        <span class="name">Sons of Beer Brewing Co.</span>
+      </a>
+      <div class="menu">
+        <a href="#beers">Beers</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="btn">Find Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <p class="kicker">Colorado • Small Batch • Big Flavor</p>
+      <h1>Specialty craft beer, brewed at altitude.</h1>
+      <p class="lede">We’re a Colorado team dedicated to our craft—creating clean, expressive beers for hop-heads, malt lovers, and curious first-timers alike.</p>
+      <div class="hero-cta">
+        <a class="btn" href="#beers">Explore Beers</a>
+        <a href="contact.html">Tap list & locations →</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="beers" class="section">
+      <div class="container">
+        <h2>Flagship Beers</h2>
+        <div class="cards">
+          <article class="card">
+            <span class="badge">IPA • 6.8%</span>
+            <h3>Front Range Haze</h3>
+            <p>Citra &amp; Mosaic lead the way with ripe citrus and pineapple over a soft, pillowy body.</p>
+          </article>
+          <article class="card">
+            <span class="badge">Amber • 5.4%</span>
+            <h3>High Country Amber</h3>
+            <p>Toasty malt, balanced caramel, and a crisp finish—our anytime, anywhere Colorado amber.</p>
+          </article>
+          <article class="card">
+            <span class="badge">Pils • 4.9%</span>
+            <h3>Ridge Line Pils</h3>
+            <p>Old-world hops meet Rocky Mountain water for a bright, snappy pilsner.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid-2">
+        <div>
+          <h2>From Colorado, with love.</h2>
+          <p>We obsess over quality—from grain to glass. Every batch is brewed with mountain water, patient fermentation, and a relentless focus on flavor.</p>
+          <p class="small">Independent • Community-focused • Quality-first</p>
+          <a class="btn mt-2" href="about.html">Meet the Team</a>
+        </div>
+        <div class="card">
+          <blockquote>
+            “Great beer doesn’t need gimmicks—just great ingredients, discipline, and time. That’s our promise.”
+          </blockquote>
+          <p class="small mt-2">— Sons of Beer Brewing Company</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="small">© <span id="y"></span> Sons of Beer Brewing Company • Colorado, USA</div>
+    </div>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>

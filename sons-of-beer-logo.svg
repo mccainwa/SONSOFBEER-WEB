@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="220" height="40" viewBox="0 0 220 40" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sons of Beer Brewing Co.">
+  <rect width="220" height="40" rx="6" fill="#201A16"/>
+  <g font-family="Georgia, 'Times New Roman', serif" font-weight="700">
+    <text x="12" y="27" font-size="16" fill="#F3E7C9">SONS OF BEER</text>
+  </g>
+  <g font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji';" font-weight="600">
+    <text x="164" y="27" font-size="9" fill="#E0C47A">CO</text>
+  </g>
+</svg>

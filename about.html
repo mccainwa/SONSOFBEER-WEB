@@ -1,0 +1,53 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About — Sons of Beer Brewing Company</title>
+  <meta name="description" content="Our story and philosophy at Sons of Beer Brewing Company.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/sons-of-beer-logo.svg" alt="Sons of Beer logo">
+        <span class="name">Sons of Beer Brewing Co.</span>
+      </a>
+      <div class="menu">
+        <a href="index.html#beers">Beers</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="btn">Find Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="section">
+    <div class="container grid-2">
+      <div>
+        <p class="kicker">Our Story</p>
+        <h1>Brewed by people who love the craft.</h1>
+        <p>We started in Colorado with a simple goal: make beer we’re proud to share. We keep our recipes focused, our process tight, and our standards high.</p>
+        <p>Whether you’re here for a crisp pilsner, a layered amber, or a bright IPA, we’ve got a pour with your name on it.</p>
+      </div>
+      <div class="card">
+        <h3>What we believe</h3>
+        <ul>
+          <li>Quality over quantity</li>
+          <li>Local ingredients whenever possible</li>
+          <li>Transparency in what goes in your glass</li>
+          <li>Community, collaboration, and good times</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="small">© <span id="y"></span> Sons of Beer Brewing Company • Colorado, USA</div>
+    </div>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
